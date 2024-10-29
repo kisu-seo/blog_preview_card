@@ -120,11 +120,12 @@ meter {
 
 html {
     font-family: 'Figtree', sans-serif;
-    font-size: 16px;
+    line-height: 150%;
+    color: #111111;
 }
 
 body {
-    background-color: hsl(47, 88%, 63%);
+    background-color: #f4d04e;
     display: grid;
     place-items: center;
     height: 100vh;
@@ -133,16 +134,45 @@ body {
 .main-card {
     background-color: white;
     width: 100%;
-    max-width: 375px;
+    max-width: 327px;
+    padding: 24px;
     display: flex;
     justify-content: center;
     flex-direction: column;
-    padding: 25px;
     border: 1px solid black;
     border-radius: 20px;
-
 }
 
-img {
+.main-img {
     border-radius: 10px;
+    margin-bottom: 24px;
+}
+
+.learning {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 73px;
+    height: 26px;
+    background-color: #f4d04e;
+    font-size: 12px;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+
+.published {
+    font-size: 12px;
+    margin-bottom: 12px;
+}
+
+.foundations {
+    font-size: 20px;
+    font-weight: 800;
+    margin-bottom: 12px;
+}
+
+.content {
+    font-size: 14px;
+    color: #6b6b6b;
+    margin-bottom: 24px;
 }
