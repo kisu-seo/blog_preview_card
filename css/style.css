@@ -176,3 +176,18 @@ body {
     color: #6b6b6b;
     margin-bottom: 24px;
 }
+
+.img-avatar {
+    display: flex;
+    align-items: center;
+}
+
+.img-avatar img {
+    width: 32px;
+    height: 32px;
+}
+
+.img-avatar p {
+    font-weight: 800;
+    padding-left: 12px;
+}
