@@ -192,3 +192,8 @@ body {
     font-weight: 800;
     padding-left: 12px;
 }
+
+.foundations:hover {
+    color: #f4d04e;
+    cursor: pointer;
+}
